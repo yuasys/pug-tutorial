@@ -1,0 +1,28 @@
+{
+  "name": "pug-try",
+  "version": "1.0.0",
+  "description": "Source code for pug tutorial",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "pug": "pug ./src --hierarchy -o ./docs -P",
+    "pug-w": "pug ./src --hierarchy -o ./docs -P -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuasys/pug-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuasys/pug-tutorial/issues"
+  },
+  "homepage": "https://github.com/yuasys/pug-tutorial#readme",
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
